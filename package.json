@@ -11,7 +11,7 @@
     "autofix": "eslint . --fix",
     "lint": "eslint .",
     "start": "node src/changelog.js",
-    "test": "npm run lint && npm run test-without-browsers"
+    "test": "npm run lint && npm run test"
   },
   "dependencies": {
     "conventional-changelog": "^2.0.3",
