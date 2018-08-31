@@ -11,7 +11,7 @@
     "autofix": "eslint . --fix",
     "lint": "eslint .",
     "start": "node src/changelog.js",
-    "test": "npm run lint && npm run test"
+    "test": "npm run lint && jest --coverage"
   },
   "dependencies": {
     "commander": "^2.17.1",
