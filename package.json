@@ -1,0 +1,44 @@
+{
+  "name": "changelog-generator",
+  "version": "0.0.0",
+  "description": "A CLI to generate custom changelog between to commits",
+  "license": "MIT",
+  "bin": {
+    "changelog-generator": "./src/cli.js"
+  },
+  "main": "./src/changelog.js",
+  "scripts": {
+    "autofix": "eslint . --fix",
+    "lint": "eslint .",
+    "start": "node src/changelog.js",
+    "test": "npm run lint && jest --coverage"
+  },
+  "dependencies": {
+    "commander": "^2.17.1",
+    "conventional-changelog": "^2.0.3",
+    "conventional-changelog-core": "^3.1.0",
+    "conventional-changelog-preset-loader": "^2.0.1",
+    "timestring": "^5.0.1",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "jest": "^23.5.0"
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "git add",
+      "npx jest --bail --forceExit --findRelatedTests"
+    ]
+  },
+  "contributors": [
+    "German Attanasio <germanatt@us.ibm.com> (@german)",
+    "Mamoon Raja <mamoon.raja@ibm.com> (@mamoon.raja)"
+  ],
+  "pre-commit": "lint-staged",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mamoonraja/ changelog-generator"
+  }
+}
