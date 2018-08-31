@@ -1,12 +1,12 @@
 {
-  "name": "custom-changelog-cli",
+  "name": "@watson/changelog-generator",
   "version": "0.0.1",
   "description": "A CLI to generate custom changelog",
-  "private": true,
-  "license": "SEE LICENSE IN License.txt",
+  "license": "MIT",
   "bin": {
-    "custom-changelog": "./src/cli.js"
+    "changelog-generator": "./src/cli.js"
   },
+  "main": "./src/changelog.js",
   "scripts": {
     "autofix": "eslint . --fix",
     "lint": "eslint .",
@@ -32,12 +32,10 @@
       "npx jest --bail --forceExit --findRelatedTests"
     ]
   },
-  "ibmCloud": {
-    "contributors": [
-      "German Attanasio <germanatt@us.ibm.com> (@german)",
-      "Mamoon Raja <mamoon.raja@ibm.com> (@mamoon.raja)"
-    ]
-  },
+  "contributors": [
+    "German Attanasio <germanatt@us.ibm.com> (@german)",
+    "Mamoon Raja <mamoon.raja@ibm.com> (@mamoon.raja)"
+  ],
   "pre-commit": "lint-staged",
   "repository": {
     "type": "git",

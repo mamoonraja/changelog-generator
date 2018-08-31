@@ -38,5 +38,4 @@ const changeLogBetweenCommits = (params) => {
   );
 };
 
-
 module.exports = changeLogBetweenCommits;
