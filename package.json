@@ -1,7 +1,7 @@
 {
-  "name": "@watson/changelog-generator",
-  "version": "0.0.1",
-  "description": "A CLI to generate custom changelog",
+  "name": "changelog-generator",
+  "version": "0.0.0",
+  "description": "A CLI to generate custom changelog between to commits",
   "license": "MIT",
   "bin": {
     "changelog-generator": "./src/cli.js"
@@ -39,6 +39,6 @@
   "pre-commit": "lint-staged",
   "repository": {
     "type": "git",
-    "url": "git@github.ibm.com:Mamoon/custom-changelog-cli"
+    "url": "git@github.com:mamoonraja/ changelog-generator"
   }
 }
