@@ -40,5 +40,9 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:mamoonraja/changelog-generator"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
