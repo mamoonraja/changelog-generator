@@ -4,7 +4,7 @@
   "description": "A CLI to generate custom changelog during the interval between two commits",
   "license": "MIT",
   "bin": {
-    "changelog-generator": "./src/cli.js"
+    "interval-changelog-generator": "./src/cli.js"
   },
   "main": "./src/changelog.js",
   "scripts": {
