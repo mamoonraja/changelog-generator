@@ -1,4 +1,4 @@
-# changelog-generator
+# interval-changelog-generator
 
 <p align="center">
   <a href="http://travis-ci.org/mamoonraja/changelog-generator">
@@ -16,13 +16,13 @@ Wrapper around conventional changelog core [package](https://github.com/conventi
 You will need to have [Node.js](https://nodejs.org/en/download/) installed.
 
 ```bash
-$ npm i -g changelog-generator
+$ npm i -g interval-changelog-generator
 ```
 
 Print the changelog from a github tag `v1.0.0_8_27_18` to `v1.0.1_8_28_18`.
 
 ```bash
-$ changelog-generator -t v1.0.0_8_28_18 -f v1.0.0_8_27_18
+$ interval-changelog-generator -t v1.0.0_8_28_18 -f v1.0.0_8_27_18
 ```
 
 Example output
@@ -40,9 +40,9 @@ Example output
 ## Help
 
 ```bash
-$ changelog-generator --help            # or -h (see all possibles options)
+$ interval-changelog-generator --help            # or -h (see all possibles options)
 
-  Usage: changelog-generator [options]
+  Usage: interval-changelog-generator [options]
 
   Options:
 
