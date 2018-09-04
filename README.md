@@ -1,5 +1,14 @@
 # changelog-generator
 
+<p align="center">
+  <a href="http://travis-ci.org/mamoonraja/changelog-generator">
+    <img alt="Travis" src="https://travis-ci.org/mamoonraja/changelog-generator.svg?branch=master">
+  </a>
+  <a href="#badge">
+    <img alt="semantic-release" src="https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg">
+  </a>
+</p>
+
 Wrapper around conventional changelog core [package](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-core) to generate a changelog from a certain git tag in past to any git tag in future.
 
 ## Getting Started
