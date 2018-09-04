@@ -39,6 +39,6 @@
   "pre-commit": "lint-staged",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mamoonraja/ changelog-generator"
+    "url": "git@github.com:mamoonraja/changelog-generator"
   }
 }
